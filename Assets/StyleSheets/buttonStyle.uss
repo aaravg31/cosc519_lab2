@@ -1,0 +1,11 @@
+:root {
+}
+
+.buttonstyle {
+    transition-duration: 0.5s;
+    background-color: rgb(0, 0, 0);
+}
+
+.buttonstyle:hover {
+    scale: 1.03 1.03 1.03;
+}

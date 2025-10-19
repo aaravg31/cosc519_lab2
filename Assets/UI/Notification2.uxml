@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/StyleSheets/buttonStyle1.uss?fileID=7433441132597879392&amp;guid=66db430c51655430ea08fd486590f1fb&amp;type=3#buttonStyle1" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label text="Pick Cube Color" name="newAlert" style="height: 92px; align-items: stretch; justify-content: center; align-content: flex-start; -unity-text-align: middle-center; -unity-font-style: bold; font-size: 36px;" />
+        <ui:VisualElement style="flex-grow: 1; align-items: stretch; justify-content: flex-start;">
+            <ui:Button text="Red" name="Button1" class="buttonstyle" style="height: 60px;" />
+            <ui:Button text="Green" name="Button2" class="buttonstyle" style="height: 60px;" />
+            <ui:Button text="Blue" name="Button3" class="buttonstyle" style="height: 60px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,17 @@
+:root {
+}
+
+.buttonstyle {
+    font-size: 24px;
+    -unity-font-style: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(120, 207, 203);
+    transition-duration: 0.5s;
+}
+
+.buttonstyle:hover {
+    scale: 1.03 1.03 1.03;
+}
